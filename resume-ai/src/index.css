@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300&display=swap');
 
-body {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -9,6 +14,13 @@ body {
   font-variation-settings: "wdth" 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(./Components/Assets/background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
 }
 
 code {
